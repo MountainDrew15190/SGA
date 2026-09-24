@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 /**
  * Shared brand tokens (kept in sync across Navbar, Timer, Footer,
@@ -14,6 +15,7 @@ import Link from "next/link";
  */
 
 const links = [
+  { href:"/", label:"Home"},
   { href: "/platform", label: "Platform" },
   { href: "/candidates", label: "Candidates" },
 ];
@@ -24,14 +26,17 @@ export default function Navbar() {
   return (
     <nav className="w-full border-b border-[#8B2E2E]/10 bg-[#FAF6EE]">
       <div className="mx-auto max-w-7xl px-6">
-        <div className="grid h-18 grid-cols-[auto_1fr_auto] items-center py-3">
+        <div className="grid h-20 grid-cols-[auto_1fr_auto] items-center py-3">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2.5">
-            <div className="flex h-9 w-9 items-center justify-center rounded-md bg-[#8B2E2E] text-sm font-bold text-white">
-              R
-            </div>
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/logo.png"
+              alt="logo"
+              width={100}
+              height={100}
+            />
             <span className="text-lg font-semibold tracking-tight text-[#241C1A]">
-              ReformUMD
+              ReviveUMD
             </span>
           </Link>
 
