@@ -1,0 +1,323 @@
+.card {
+  --bg: #241c1a;
+  --panel: #2f2521;
+  --panel-border: #3d322c;
+  --text: #f4f1ea;
+  --muted: #b9aca3;
+  --red: #b3423f;
+  --yellow: #d9a441;
+  --yellow-ink: #241c1a;
+  --track: #4a3d37;
+
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: 3rem;
+  align-items: center;
+  padding: 2.75rem 2.75rem 2.5rem;
+  background: var(--bg);
+  color: var(--text);
+  border-radius: 28px;
+  box-shadow: 0 18px 40px rgba(20, 14, 12, 0.28);
+}
+
+@media (max-width: 900px) {
+  .card {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 2rem;
+    padding: 1.75rem 1.25rem;
+    border-radius: 22px;
+  }
+}
+
+/* ---------- left column ---------- */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  background: var(--yellow);
+  color: var(--yellow-ink);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.badgeIcon {
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+.title {
+  margin: 1.1rem 0 1rem;
+  font-size: clamp(1.9rem, 3.4vw, 2.6rem);
+  line-height: 1.12;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  max-width: 16ch;
+}
+
+.blurb {
+  margin: 0 0 1.75rem;
+  max-width: 46ch;
+  font-size: 1rem;
+  line-height: 1.55;
+  color: #d8cec7;
+}
+
+.selectorHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.7rem;
+  font-size: 0.9rem;
+}
+
+.selectorTag {
+  color: var(--yellow);
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.segmented {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+.segment {
+  appearance: none;
+  border: 0;
+  cursor: pointer;
+  padding: 0.7rem 0.5rem;
+  border-radius: 8px;
+  background: #4a3d37;
+  color: #ece5df;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+.segment:hover {
+  background: #59493f;
+}
+
+.segment[aria-pressed="true"] {
+  background: var(--red);
+  color: #fff;
+}
+
+.segment:focus-visible {
+  outline: 2px solid var(--yellow);
+  outline-offset: 2px;
+}
+
+/* ---------- right panel ---------- */
+
+.panel {
+  padding: 1.5rem 1.6rem 1.6rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--panel-border);
+  border-radius: 22px;
+}
+
+.panelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 0.7rem;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.panelTitle {
+  color: #cfc4bc;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.panelBadge {
+  padding: 0.28rem 0.6rem;
+  border-radius: 6px;
+  background: var(--yellow);
+  color: var(--yellow-ink);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/* single bar + markers */
+
+.barArea {
+  /* room for marker labels above and below the track */
+  padding: 3.4rem 0.25rem 3.6rem;
+}
+
+.track {
+  position: relative;
+  height: 14px;
+  border-radius: 999px;
+  background: var(--track);
+}
+
+.clip {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  border-radius: inherit;
+}
+
+.fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  background: var(--red);
+  transition: width 500ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.saved {
+  position: absolute;
+  inset: 0 0 0 auto;
+  background: var(--yellow);
+  transition: width 500ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.marker {
+  --tone: #ece5df;
+  position: absolute;
+  top: -9px;
+  bottom: -9px;
+  width: 0;
+  transition: left 500ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.marker[data-tone="accent"] {
+  --tone: var(--yellow);
+}
+
+.marker[data-tone="muted"] {
+  --tone: var(--muted);
+}
+
+.tick {
+  position: absolute;
+  inset: 0 auto 0 -1px;
+  width: 2px;
+  border-radius: 2px;
+  background: var(--tone);
+}
+
+.markerLabel {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  white-space: nowrap;
+  line-height: 1.15;
+  color: var(--tone);
+}
+
+.marker[data-side="above"] .markerLabel {
+  bottom: calc(100% + 0.4rem);
+}
+
+.marker[data-side="below"] .markerLabel {
+  top: calc(100% + 0.4rem);
+}
+
+.marker[data-align="center"] .markerLabel {
+  left: 0;
+  transform: translateX(-50%);
+  align-items: center;
+  text-align: center;
+}
+
+.marker[data-align="start"] .markerLabel {
+  left: -1px;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.marker[data-align="end"] .markerLabel {
+  right: -1px;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.markerName {
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.markerValue {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+/* cash back box */
+
+.cashBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 1rem;
+  padding: 1.1rem 1.25rem;
+  background: var(--panel);
+  border-radius: 14px;
+}
+
+.cashLabel {
+  display: block;
+  margin-bottom: 0.3rem;
+  color: #cfc4bc;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+.cashAmount {
+  color: var(--yellow);
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.1;
+}
+
+.directValue {
+  text-align: right;
+}
+
+.directText {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+@media (max-width: 480px) {
+  .cashBox {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .directValue {
+    text-align: left;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fill,
+  .saved,
+  .marker,
+  .segment {
+    transition: none;
+  }
+}
