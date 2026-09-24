@@ -1,7 +1,7 @@
 import CandidateGrid from "../components/CandidateGrid";
 import Navbar from "../components/navbar";
 import Timer from "../components/timer"
-
+import RequiredInfoPlusContact from "./components/RequiredInfo";
 export default function Home() {
   return (
     <div>
@@ -132,6 +132,7 @@ export default function Home() {
     },
   ]}
 />
+<RequiredInfoPlusContact />
     </div>
   )
 }

@@ -3,6 +3,7 @@ import Navbar from "@/app/components/navbar";
 import Timer from "@/app/components/timer";
 import CardList from "@/app/components/CardList";
 import PlatformStatement from "@/app/components/platformStatement";
+import RequiredInfoPlusContact from "./components/RequiredInfo";
 import { plusJakartaSans } from '@/app/fonts';
 // Style-guide type system:
 // Source Serif 4 — headlines / pull-quotes only
@@ -32,6 +33,7 @@ export default function Home() {
       <main>
         <PlatformStatement />
         <CardList />
+        <RequiredInfoPlusContact />
       </main>
     </div>
   );
