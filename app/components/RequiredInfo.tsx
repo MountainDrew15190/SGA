@@ -9,7 +9,7 @@ const quickLinks = [
 
 export default function RequiredInfoPlusContact() {
   return (
-    <section className="mx-auto max-w-7xl px-6 pb-20">
+    <section className="mx-auto max-w-7xl px-6 pb-20 bg-[#FAF6EE]">
       <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
         {/* Contact Us */}
         <div className="rounded-[22px] border border-[#8B2E2E]/10 bg-white p-7 shadow-[0_10px_30px_rgba(36,28,26,0.06)]">

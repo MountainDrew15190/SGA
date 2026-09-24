@@ -1,9 +1,9 @@
-import { Source_Serif_4, Plus_Jakarta_Sans, Space_Grotesk } from "next/font/google";
+import { Source_Serif_4, Space_Grotesk } from "next/font/google";
 import Navbar from "@/app/components/navbar";
 import Timer from "@/app/components/timer";
 import CardList from "@/app/components/CardList";
 import PlatformStatement from "@/app/components/platformStatement";
-import RequiredInfoPlusContact from "./components/RequiredInfo";
+import RequiredInfoPlusContact from "@/app/components/RequiredInfo";
 import { plusJakartaSans } from '@/app/fonts';
 // Style-guide type system:
 // Source Serif 4 — headlines / pull-quotes only
