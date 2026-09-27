@@ -137,7 +137,7 @@ export default function Home() {
             {
       id: 14,
       name: "Spencer Zheng",
-      photoSrc: "/candidates/Spencer copy.jpg",
+      photoSrc: "/candidates/Spencer copy.JPG",
       major: "Computer Science",
       classYear:  "Senior",
       statement:"As a CMNS representative, I will work to communicate with and stand up for our clubs so that the SGA addresses their concerns and properly funds them.",
@@ -179,7 +179,7 @@ export default function Home() {
         {
       id: 17,
       name: "Hayden Day",
-      photoSrc: "/candidates/Hayden copy.jpeg",
+      photoSrc: "/candidates/Hayden copy.JPEG",
       major: "History + PPE",
       classYear:  "Junior",
       statement: "To faithfully serve the student body of the University of Maryland while championing the humanities across student groups and fields of study.",
@@ -211,7 +211,7 @@ export default function Home() {
             {
       id: 20,
       name: "Isaiah Singletary",
-      photoSrc: "/candidates/Isaiah.jpg",
+      photoSrc: "/candidates/Isaiah.JPG",
       major: "LTSC",
       classYear:  "Freshman",
       statement:"I want to help make SGA more accessible to the student body and create more opportunities for students to get involved, share their ideas, and feel connected to the UMD community.",
