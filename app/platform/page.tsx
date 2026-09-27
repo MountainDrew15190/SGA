@@ -3,9 +3,7 @@ import { useRef } from 'react'
 import { Source_Serif_4, Space_Grotesk } from "next/font/google";
 import Navbar from "@/app/components/navbar";
 import Timer from "@/app/components/timer";
-import CardList from "@/app/components/CardList";
 import PlatformStatement from "@/app/components/platformStatement";
-import ExpandableSection from "@/app/components/ExpandableSection"
 import RequiredInfoPlusContact from "@/app/components/RequiredInfo";
 import ButtonLinks from "@/app/components/ButtonLinkGrid"
 import Policy from "../components/policy";
