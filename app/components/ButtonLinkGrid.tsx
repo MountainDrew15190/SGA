@@ -21,7 +21,7 @@ const gridBtnClass =
   "flex items-center justify-center text-center w-full py-4 px-4 rounded-lg font-semibold text-white bg-[#8B2E2E] hover:bg-[#6E2323] transition-colors";
 
 const rowBtnClass =
-  "flex items-center justify-center text-center w-full py-4 px-4 rounded-lg font-semibold text-black bg-[#241C1A] hover:bg-[#8B2E2E] transition-colors bg-[#D9A441] ";
+  "flex items-center justify-center text-center w-full py-4 px-4 rounded-lg font-semibold text-black hover:bg-[#8B2E2E] transition-colors bg-[#D9A441] ";
 
 interface btn {
   href: string;
