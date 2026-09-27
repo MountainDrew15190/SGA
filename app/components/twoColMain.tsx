@@ -15,9 +15,9 @@ type TicketMember = {
 };
 
 const ticket: TicketMember[] = [
-  { role: "President", name: "Firstname Lastname", photo: "/pres_placeholder.jpeg" },
-  { role: "VPFA", name: "Firstname Lastname", photo: "/VPFA.jpeg" },
-  { role: "EVP", name: "Firstname Lastname", photo: "/EVP.jpeg" },
+  { role: "President", name: "Avi Polirer", photo: "/candidates/avismall.png" },
+  { role: "EVP", name: "Peyton McDonald", photo: "/candidates/peytonsmall.png" },
+  { role: "VPFA", name: "Jonathan Leung", photo: "/candidates/johnnysmall.png" },
 ];
 
 export default function TwoColumns() {
@@ -32,7 +32,7 @@ export default function TwoColumns() {
             Students deserve a say in how UMD spends their money.
           </h1>
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-[#241C1A]/70">
-            ReformUMD is running on lower mandatory fees, guaranteed seats
+            ReviveUMD is running on lower mandatory fees, guaranteed seats
             for commuter and graduate students, and a public budget
             dashboard — real changes, not campaign slogans.
           </p>
@@ -75,11 +75,9 @@ export default function TwoColumns() {
 
       {/* Pull quote from the presidential candidate */}
       <blockquote className="mx-auto mt-14 max-w-3xl border-l-4 border-[#D9A441] pl-6 text-xl italic leading-relaxed text-[#241C1A]/80">
-        "We're not running to add another line to our resume. We're running
-        because every student should know where their fee dollars go — and
-        have a say in it."
+        ""
         <footer className="mt-3 text-sm not-italic font-semibold text-[#8B2E2E]">
-          — SGA Presidential Candidate
+          — Avi Polirer, Presidential Candidate 
         </footer>
       </blockquote>
     </section>

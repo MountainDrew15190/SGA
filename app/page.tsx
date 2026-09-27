@@ -24,7 +24,7 @@ export default function Home() {
               Policy Focuses
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-[#241C1A]/70">
-              Four commitments ReformUMD is running on this year.
+              Four commitments ReviveUMD is running on this year.
             </p>
           </div>
           <div className="mt-12">

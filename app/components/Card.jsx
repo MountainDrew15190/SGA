@@ -2,7 +2,7 @@
  * Card.jsx
  *
  * A reusable, fully customizable card component styled to the
- * ReformUMD style guide: light card family (22px radius, hairline
+ * ReviveUMD style guide: light card family (22px radius, hairline
  * maroon border, soft shadow), gold category badge, ink title,
  * muted body text.
  *

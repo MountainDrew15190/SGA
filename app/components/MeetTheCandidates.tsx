@@ -10,7 +10,7 @@ const serif = Source_Serif_4({
 const steps = [
   {
     title: "Log in with your UMD ID",
-    body: "Head to elections.umd.edu and sign in with your Directory ID. You only need to do this once per election cycle.",
+    body: "From October 1st to 6th, head to elections.umd.edu and sign in with your Directory ID. You only need to do this once per election cycle.",
   },
   {
     title: "Review the ballot",
@@ -33,7 +33,7 @@ export default function MeetTheCandidates() {
           Meet the Candidates
         </h2>
         <p className="mx-auto mt-5 max-w-2xl text-lg leading-relaxed text-[#241C1A]/70">
-          ReformUMD is a slate of 21 students running for President, EVP,
+          ReviveUMD is a slate of 21 students running for President, EVP,
           VPFA, and Senate seats across campus — each with a platform built
           from conversations with the students they hope to represent.
         </p>

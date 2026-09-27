@@ -17,7 +17,7 @@ const grotesk = Space_Grotesk({
 export type Marker = {
   /** Position on the bar, 0–100 (percent of the baseline fee). */
   percent: number;
-  /** Small caption, e.g. "ReformUMD plan". */
+  /** Small caption, e.g. "ReviveUMD plan". */
   label: string;
   /** Bold value under/over the caption, e.g. "$1,480". Optional. */
   value?: string;
@@ -57,7 +57,7 @@ const usd = (n: number) =>
  * Example of custom markers — add as many as you like, at any percentage:
  *
  * markers: [
- *   { percent: 76.3, label: "ReformUMD Target Plan", value: "$1,480 / yr", side: "above", tone: "accent" },
+ *   { percent: 76.3, label: "ReviveUMD Target Plan", value: "$1,480 / yr", side: "above", tone: "accent" },
  *   { percent: 100,  label: "Current Baseline Fees", value: "$1,940 / yr", side: "below" },
  * ]
  *
@@ -98,7 +98,7 @@ function defaultMarkers(p: Profile): Marker[] {
   return [
     {
       percent: targetPct,
-      label: "ReformUMD Target Plan",
+      label: "ReviveUMD Target Plan",
       value: `${usd(p.target)} / yr`,
       side: "above",
       tone: "accent",
@@ -171,7 +171,7 @@ export default function FeeImpactCard({
 
         <p className={styles.blurb}>
           The administration hides auxiliary fee growth in obscure line items.
-          ReformUMD will redirect administrative overhead directly back into
+          ReviveUMD will redirect administrative overhead directly back into
           commuter stipends, student organization budgets, and dining
           subsidies.
         </p>

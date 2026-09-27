@@ -9,34 +9,36 @@ export default function Home() {
     <Timer />
     <main className="bg-[#FAF6EE]">
 <CandidateGrid
-  ticketName="Terps United"
+  ticketName="ReviveUMD"
   candidates={[
     {
       id: 1,
-      name: "Jordan Reyes",
-      photoSrc: "/afford.jpeg",
-      major: "Government & Politics",
-      classYear:  "Junior",
+      name: "Avi Polirer",
+      photoSrc: "/candidates/avibig.png",
+      major: "Public Policy",
+      classYear:  "Senior",
       position: "President",
-       
+      statement:"",
       color:"bg-[#FFD520]"
     },
     {
       id: 2,
-      name: "Amara Osei",
-      photoSrc: "/afford.jpeg",
-      major: "Computer Science",
-      classYear:  "Junior",
-      position: "Vice President",
+      name: "Peyton McDonald",
+      photoSrc: "/candidates/peytonbig.png",
+      major: "Public Policy",
+      classYear:  "Senior",
+      position: "Executive Vice President",
+      statement:"",
       color:"bg-[#FFD520]"
     },
         {
       id: 4,
-      name: "Jordan Reyes",
-      photoSrc: "/afford.jpeg",
-      major: "Government & Politics",
-      classYear:  "Junior",
-      position: "President",
+      name: "Jonathan Leung",
+      photoSrc: "/candidates/johnnybig.png",
+      major: "Finance",
+      classYear:  "Senior",
+      position: "Vice President of Financial Affiars",
+      statement:"",
       color:"bg-[#FFD520]"
     },
     {
@@ -52,7 +54,7 @@ export default function Home() {
             {
       id: 6,
       name: "Sathwika Nadella",
-      photoSrc: "/candidates/Sathwika.jpeg",
+      photoSrc: "/candidates/Sathwika copy.jpeg",
       major: "GVPT",
       classYear:  "Sophomore",
       statement:"I want our admin to be more transparent and communicate in urgent situations so us students aren’t left in the dark for so long (literally! see: power outage). I want to work to curb the out of control rent prices for off campus housing in College Park, so we can all afford to live.",
@@ -74,7 +76,7 @@ export default function Home() {
             {
       id: 8,
       name: "Jake Duvall",
-      photoSrc: "/candidates/Jake.jpeg",
+      photoSrc: "/candidates/Jake copy.jpeg",
       major: "Secondary English Education",
       classYear:  "Sophomore",
       position: "EDUC Legislator",
@@ -84,7 +86,7 @@ export default function Home() {
     {
       id: 9,
       name: "Denis Njoroge",
-      photoSrc: "/candidates/Denis.PNG",
+      photoSrc: "/candidates/Denis copy 2.PNG",
       major: "Information Science",
       classYear:  "Senior",
       position: "INFO Legislator",
@@ -104,7 +106,7 @@ export default function Home() {
     {
       id: 11,
       name: "Zoe Mededovic",
-      photoSrc: "/candidates/Zoe.PNG",
+      photoSrc: "/candidates/Zoe copy.PNG",
       major: "Architecture",
       classYear:  "Sophomore",
       position: "ARCH Legislator",
@@ -115,7 +117,7 @@ export default function Home() {
             {
       id: 12,
       name: "Raj Bhansali",
-      photoSrc: "/candidates/Raj.png",
+      photoSrc: "/candidates/Raj copy.png",
       major: "Public Health Sciences + Finance",
       classYear:  "Junior",
       position: "SPH Legislator",
@@ -125,7 +127,7 @@ export default function Home() {
     {
       id: 13,
       name: "Molly Zatlukal",
-      photoSrc: "/candidates/Molly.jpeg",
+      photoSrc: "/candidates/Molly2.jpeg",
       major: "Public Policy",
       classYear:  "Junior",
       position: "PLCY Legislator",
@@ -135,7 +137,7 @@ export default function Home() {
             {
       id: 14,
       name: "Spencer Zheng",
-      photoSrc: "/candidates/Spencer.jpg",
+      photoSrc: "/candidates/Spencer copy.jpg",
       major: "Computer Science",
       classYear:  "Senior",
       statement:"As a CMNS representative, I will work to communicate with and stand up for our clubs so that the SGA addresses their concerns and properly funds them.",
@@ -146,21 +148,21 @@ export default function Home() {
     {
       id: 15,
       name: "Andrew Dietrich",
-      photoSrc: "/candidates/Andrew.jpeg",
+      photoSrc: "/candidates/Andrew copy.jpeg",
       major: "Computer Science",
       classYear:  "Sophomore",
-      statement:"I want to make SGA more transparent and communicative",
+      statement:"I want to make SGA more transparent and communicative as well increase funding for Computering related student organizations.",
       position: "CMNS Legislator",
        
       color:"bg-[#FBF7EE]"
     },
     {
       id: 3,
-      name: "Amara Osei",
-      photoSrc: "/afford.jpeg",
-      major: "Computer Science",
-      classYear:  "Junior",
-      position: "Vice President",
+      name: "Jas Bhamra",
+      photoSrc: "/candidates/Jas.jpeg",
+      major: "Mathematics",
+      classYear:  "Senior",
+      position: "CMNS Legislator",
        
       color:"bg-[#FBF7EE]"
     },
@@ -177,7 +179,7 @@ export default function Home() {
         {
       id: 17,
       name: "Hayden Day",
-      photoSrc: "/candidates/Hayden.jpeg",
+      photoSrc: "/candidates/Hayden copy.jpeg",
       major: "History + PPE",
       classYear:  "Junior",
       statement: "To faithfully serve the student body of the University of Maryland while championing the humanities across student groups and fields of study.",
@@ -223,7 +225,7 @@ export default function Home() {
       photoSrc: "/afford.jpeg",
       major: "Computer Science",
       classYear:  "Junior",
-      position: "Vice President",
+      position: "ENGR Legislator",
        
       color:"bg-[#FBF7EE]"
     },
