@@ -162,6 +162,7 @@ export default function Home() {
       photoSrc: "/candidates/Jas.jpeg",
       major: "Mathematics",
       classYear:  "Senior",
+      statement:"Regarding SGA I want to help bridge the gap between SGA and the student body. There’s a large disconnect between the students and how they perceive SGA and SGA involvement, so being able to bridge that gap is important to me.",
       position: "CMNS Legislator",
        
       color:"bg-[#FBF7EE]"
@@ -221,10 +222,11 @@ export default function Home() {
     },
             {
       id: 21,
-      name: "Ike Gbloagun",
-      photoSrc: "/afford.jpeg",
-      major: "Computer Science",
+      name: "Ike Gbolagun",
+      photoSrc: "/candidates/ike.jpg",
+      major: "Mechanical Engineering",
       classYear:  "Junior",
+      statement:"My hope for my role in SGA is to build a more student centered safety and wellbeing program, to create more visible spaces where students feel supported both personally and academically.",
       position: "ENGR Legislator",
        
       color:"bg-[#FBF7EE]"
