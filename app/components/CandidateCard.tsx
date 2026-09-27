@@ -4,9 +4,10 @@ interface CandidateCardProps {
   name: string;
   photoSrc: string;
   major: string;
-  classYear: number; // e.g. 2028
+  classYear: string; // e.g. 2028
   position: string; // e.g. "President", "Senator - Engineering"
   statement?: string; // defaults to a "making a difference" line if omitted
+  color:string
 }
 
 export default function CandidateCard({
@@ -16,12 +17,13 @@ export default function CandidateCard({
   classYear,
   position,
   statement,
+  color
 }: CandidateCardProps) {
   const pledge =
     statement ?? "Running to make a real difference on campus.";
 
   return (
-    <div className="relative w-full max-w-sm overflow-hidden rounded-none border-2 border-black bg-[#FBF7EE] shadow-[6px_6px_0_0_#000]">
+    <div className={"relative w-full max-w-sm overflow-hidden rounded-none border-2 border-black shadow-[6px_6px_0_0_#000] "+color}>
       {/* Maryland-flag corner flag: black/gold checks + red/white cross, kept small and structural, not decorative */}
       <div
         className="absolute right-0 top-0 h-14 w-14"
@@ -44,7 +46,7 @@ export default function CandidateCard({
           priority={false}
         />
         <span className="absolute bottom-0 left-0 bg-[#E21833] px-3 py-1 text-sm font-bold uppercase tracking-wide text-white">
-          Class of {classYear}
+          {classYear}
         </span>
       </div>
 

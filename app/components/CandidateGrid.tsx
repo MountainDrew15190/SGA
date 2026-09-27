@@ -5,9 +5,10 @@ export interface Candidate {
   name: string;
   photoSrc: string;
   major: string;
-  classYear: number;
+  classYear: string;
   position: string;
   statement?: string;
+  color:string;
 }
 
 interface CandidateGridProps {
@@ -47,6 +48,7 @@ export default function CandidateGrid({
               classYear={candidate.classYear}
               position={candidate.position}
               statement={candidate.statement}
+              color={candidate.color}
             />
           ))}
         </div>

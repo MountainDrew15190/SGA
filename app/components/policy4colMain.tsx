@@ -27,7 +27,7 @@ const pillars: Pillar[] = [
   {
     title: "Affordability",
     body: "Redirecting administrative overhead back into commuter stipends, dining subsidies, and lower mandatory fees.",
-    href: "/platform#affordability",
+    href: "/platform#Affordability",
     icon: (
       <svg {...iconProps}>
         <circle cx="12" cy="12" r="9" />
@@ -38,7 +38,7 @@ const pillars: Pillar[] = [
   {
     title: "Representation",
     body: "Guaranteed Senate seats for commuter, transfer, and graduate students so every Terp has a vote at the table.",
-    href: "/platform#representation",
+    href: "/platform#Representation",
     icon: (
       <svg {...iconProps}>
         <circle cx="12" cy="8" r="3.25" />
@@ -53,7 +53,7 @@ const pillars: Pillar[] = [
   {
     title: "Transparency",
     body: "A public dashboard tracking every SGA budget line, so students can see exactly where fee dollars go.",
-    href: "/platform#transparency",
+    href: "/platform#Transparency",
     icon: (
       <svg {...iconProps}>
         <rect x="3.5" y="3.5" width="17" height="17" rx="2.5" />
@@ -64,7 +64,7 @@ const pillars: Pillar[] = [
   {
     title: "Funding Reform",
     body: "Rewriting how club and organization budgets are approved, cutting approval time from weeks to days.",
-    href: "/platform#funding-reform",
+    href: "/platform#FundingReform",
     icon: (
       <svg {...iconProps}>
         <path d="M4 19h16" />

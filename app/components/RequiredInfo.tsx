@@ -4,7 +4,6 @@ import Image from "next/image";
 const quickLinks = [
   { href: "/platform", label: "Platform" },
   { href: "/candidates", label: "Candidates" },
-  { href: "/join", label: "Get Involved" },
 ];
 
 export default function RequiredInfoPlusContact() {
@@ -16,7 +15,7 @@ export default function RequiredInfoPlusContact() {
           <h3 className="text-xl font-bold text-[#241C1A]">Contact Us</h3>
           <div className="mt-5 flex flex-col gap-4">
             <a
-              href="https://instagram.com/IGHANDLE"
+              href="https://instagram.com/reviveumd"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
@@ -31,7 +30,7 @@ export default function RequiredInfoPlusContact() {
                 className="text-[#8B2E2E]"
               />
               </span>
-              @IGHANDLE
+              @reviveUMD
             </a>
             <a
               href="mailto:example@example.com"
@@ -41,7 +40,7 @@ export default function RequiredInfoPlusContact() {
               <span className="flex h-9 w-9 items-center justify-center rounded-full bg-[#8B2E2E]/10 ">
                 <Mail size={18} />
               </span>
-              example@example.com
+              ReviveUMD@gmail.com
             </a>
           </div>
         </div>

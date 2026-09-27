@@ -32,9 +32,9 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="mx-auto max-w-7xl px-6 pb-20">
+        {/* <section className="mx-auto max-w-7xl px-6 pb-20">
           <FeeImpactCard />
-        </section>
+        </section> */}
 
         <MeetTheCandidates />
         <RequiredInfoPlusContact />

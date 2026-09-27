@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 // Set your target date/time here (local time). Format: YYYY-MM-DDTHH:MM:SS
-const TARGET_DATE = "2026-10-01T00:00:00";
+const TARGET_DATE = "2026-10-01T09:00:00";
 
 function getTimeLeft(target) {
   const diff = +new Date(target) - +new Date();
