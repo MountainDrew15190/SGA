@@ -7,12 +7,12 @@ import { useRouter } from 'next/navigation'
 const gridButtons:btn[] = [
   { label: "Affordability", href: "" },
   { label: "Representation", href: "/platform#Representation" },
-  { label: "Transparency", href: "/platform#Transparency" },
-  { label: "Funding Reform", href: "/platform#FundingReform" },
+  { label: "Campus Safety", href: "/platform#CampusSafety" },
+  { label: "Financial Reform", href: "/platform#FundingReform" },
 ];
 
 const rowButtons:btn[] = [
-{label: "Campus Safety", href: "/platform#CampusSafety" },
+{label: "Transparency", href: "/platform#Transparency" },
   { label: "City/State Policy", href: "/platform#CityState" },
   { label: "Dining", href: "/platform#Dining" },
 ];

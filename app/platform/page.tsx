@@ -91,43 +91,9 @@ export default function Home() {
           <p> - Semesterly/yearly summit with admin to openly publish a list of commitments</p>
           <p> - <Link href="https://dbknews.com/2026/02/26/sga-committee-campuswide-hate-bias/" className='text-[#0000EE] underline'>Cultural Specialized Committee</Link> with representatives from cultural orgs to ensure representation from communities</p></div>}
         />
-        <Policy 
+                        <Policy 
         setRef={setRef}
-          area="Transparency"
-          title="Transparency"
-          text={<div className="leading-loose text-base text-[#6B5D56]">
-            <p> - Create videos and infographics to help students get involved in SGA, including those interested in running for office</p>
-            <p> - Have Elections Commission publicize eligible tickets further before active campaigning begins</p>
-            <p> - Redesign <Link href="https://www.umdsga.com/" className='text-[#0000EE] underline'>SGA website</Link> entirely, to make it easier for students to understand the role and operations of the organization</p>
-            <p> - Release student surveys for big decisions for public feedback</p>
-            <p> - During elections, suggest professors advertise the elections to their students and encourage them to vote</p>
-            <p> - Work to expand <Link href="https://alumni.umd.edu/resources/terrapins-connect" className='text-[#0000EE] underline'>Terrapins Connect</Link>, our platform that connects students with alumni for mentoring and professional opportunities</p> 
-            <p> - Work towards higher civic engagement in SGA elections</p>
-            <p> - Maintain ReviveUMD platform on a website, with intermittent progress reports on each platform initiative</p>
-            <p> - Publicize the full results of the Spring 2026 election</p>
-          </div>}
-        />
-                <Policy 
-        setRef={setRef}
-          area="FundingReform"
-          title="Funding Reform"
-          text={<div className='leading-loose text-base text-[#6B5D56]'>
-            <p> - Create a Quick Grant Fund for small, time-sensitive expenses</p>
-            <p> - Allow quicker funding requests for the beginnings of semesters</p>
-            <p> - Create a dedicated funding pool for student organizations</p>
-            <p> - Revitalize social media and outreach efforts to student organizations</p>
-            <p> - Revitalize the <Link href="https://umdsgafinance.weebly.com/" className='text-[#0000EE] underline'>COFA website</Link> to include video tutorials to improve accessibility</p>
-            <p> - Ease regulations towards allowing student organizations to request SGA funding for food even when not listed in the mission statement</p>
-            <p> - Food money can be spent outside of Stamp locations</p>
-            <p> - Increase the miscellaneous spending cap for clubs</p>
-            <p> - Allow funding to go towards paying for gas and parking</p>
-            <p> - Streamline E-Calendar, and have it include more information on rooms prior to booking</p>
-            <p> - Introduce a consulting group for student orgs when funding request not wholly fulfilled</p>
-          </div>}
-        />
-                <Policy 
-        setRef={setRef}
-          area="CampusSafety https://dbknews.com/2025/10/29/umd-sanctuary-campus-campaign-ydsa/"
+          area="CampusSafety"
           title="Campus Safety"
           text={<div className='leading-loose text-base text-[#6B5D56]'> 
           <p> - Establish UMD as a <Link href="https://dbknews.com/2025/10/29/umd-sanctuary-campus-campaign-ydsa/" className='text-[#0000EE] underline'>Sanctuary Campus</Link></p>
@@ -150,13 +116,47 @@ export default function Home() {
           <p> - Promote safety resources at neighborhood bars</p> 
           </div>}
         />
+               <Policy 
+        setRef={setRef}
+          area="FundingReform"
+          title="Financial Reform"
+          text={<div className='leading-loose text-base text-[#6B5D56]'>
+            <p> - Create a Quick Grant Fund for small, time-sensitive expenses</p>
+            <p> - Allow quicker funding requests for the beginnings of semesters</p>
+            <p> - Create a dedicated funding pool for student organizations</p>
+            <p> - Revitalize social media and outreach efforts to student organizations</p>
+            <p> - Revitalize the <Link href="https://umdsgafinance.weebly.com/" className='text-[#0000EE] underline'>COFA website</Link> to include video tutorials to improve accessibility</p>
+            <p> - Ease regulations towards allowing student organizations to request SGA funding for food even when not listed in the mission statement</p>
+            <p> - Food money can be spent outside of Stamp locations</p>
+            <p> - Increase the miscellaneous spending cap for clubs</p>
+            <p> - Allow funding to go towards paying for gas and parking</p>
+            <p> - Streamline E-Calendar, and have it include more information on rooms prior to booking</p>
+            <p> - Introduce a consulting group for student orgs when funding request not wholly fulfilled</p>
+          </div>}
+        />
+        <Policy 
+        setRef={setRef}
+          area="Transparency"
+          title="Transparency"
+          text={<div className="leading-loose text-base text-[#6B5D56]">
+            <p> - Create videos and infographics to help students get involved in SGA, including those interested in running for office</p>
+            <p> - Have Elections Commission publicize eligible tickets further before active campaigning begins</p>
+            <p> - Redesign <Link href="https://www.umdsga.com/" className='text-[#0000EE] underline'>SGA website</Link> entirely, to make it easier for students to understand the role and operations of the organization</p>
+            <p> - Release student surveys for big decisions for public feedback</p>
+            <p> - During elections, suggest professors advertise the elections to their students and encourage them to vote</p>
+            <p> - Work to expand <Link href="https://alumni.umd.edu/resources/terrapins-connect" className='text-[#0000EE] underline'>Terrapins Connect</Link>, our platform that connects students with alumni for mentoring and professional opportunities</p> 
+            <p> - Work towards higher civic engagement in SGA elections</p>
+            <p> - Maintain ReviveUMD platform on a website, with intermittent progress reports on each platform initiative</p>
+            <p> - Publicize the full results of the Spring 2026 election</p>
+          </div>}
+        />
                 <Policy 
         setRef={setRef}
           area="CityState"
           title="City/State Policy"
           text={<div className='leading-loose text-base text-[#6B5D56]'>
             <p> - Work with admin, city, and/or businesses to offer student discounts at local businesses </p>
-            <p> - Housing policy w/city, state (rent control, realpage out, right to first refusal, maintain Early Lease Ordinance)</p>
+            <p> - Housing policy w/city, state (<Link href="https://dbknews.com/2024/03/07/cpi-based-rent-caps-for-housing-stability/" className='text-[#0000EE] underline'>rent control</Link>, <Link href="https://en.wikipedia.org/wiki/Right_of_first_refusal/" className='text-[#0000EE] underline'>realpage out</Link>, <Link href="https://dbknews.com/2024/03/07/cpi-based-rent-caps-for-housing-stability/" className='text-[#0000EE] underline'>right to first refusal</Link>, maintain <Link href="https://dbknews.com/2026/02/04/college-park-early-lease-ordinance/" className='text-[#0000EE] underline'>Early Lease Ordinance</Link>)</p>
             <p> - Increase pro-student lobbying efforts to the state legislature</p>
             <p> - Protection from <Link href="https://deflock.org/" className='text-[#0000EE] underline'>Flock Safety, AI Cameras</Link></p>
             <p> - Transparency of investments and pushing for divestment from  <Link href="https://dbknews.com/2026/04/17/umd-usm-divestment-coalition-tribunal/" className='text-[#0000EE] underline'>problematic companies</Link></p>

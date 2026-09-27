@@ -29,12 +29,11 @@ export default function TwoColumns() {
           <h1
             className={`${serif.className} text-5xl font-bold leading-[1.05] text-[#241C1A] sm:text-6xl`}
           >
-            Students deserve a say in how UMD spends their money.
+            The SGA is not working. We will make it work for you. 
           </h1>
           <p className="mt-6 max-w-lg text-lg leading-relaxed text-[#241C1A]/70">
-            ReviveUMD is running on lower mandatory fees, guaranteed seats
-            for commuter and graduate students, and a public budget
-            dashboard — real changes, not campaign slogans.
+            ReviveUMD is running on lowering student costs, protecting our campus community, giving 
+            clubs the funding they deserve, and properly and fairly representing you.
           </p>
           <Link
             href="/platform"
@@ -47,8 +46,8 @@ export default function TwoColumns() {
         {/* Right: the ticket */}
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-3 lg:grid-cols-1">
           {ticket.map((member) => (
+            <Link href="/candidates" key={member.role}>
             <div
-              key={member.role}
               className="flex items-center gap-4 rounded-[18px] border border-[#8B2E2E]/10 bg-white p-4 shadow-[0_10px_30px_rgba(36,28,26,0.06)] lg:flex-row"
             >
               <div className="relative h-16 w-16 flex-shrink-0 overflow-hidden rounded-full bg-[#FAF6EE]">
@@ -69,13 +68,14 @@ export default function TwoColumns() {
                 </p>
               </div>
             </div>
+          </Link>
           ))}
         </div>
       </div>
 
       {/* Pull quote from the presidential candidate */}
       <blockquote className="mx-auto mt-14 max-w-3xl border-l-4 border-[#D9A441] pl-6 text-xl italic leading-relaxed text-[#241C1A]/80">
-        ""
+        "The SGA is obviously not working. But we know how to make it work, and we will make it work for you."
         <footer className="mt-3 text-sm not-italic font-semibold text-[#8B2E2E]">
           — Avi Polirer, Presidential Candidate 
         </footer>

@@ -24,9 +24,7 @@ export default function CandidateGrid({
     <section className="bg-[#FBF7EE] px-6 py-12">
       {ticketName && (
         <div className="mx-auto mb-10 max-w-5xl text-center">
-          <span className="text-xs font-bold uppercase tracking-[0.2em] text-[#E21833]">
-            UMD SGA Ticket
-          </span>
+
           <h2 className="mt-1 text-3xl font-black tracking-tight text-black sm:text-4xl">
             {ticketName}
           </h2>

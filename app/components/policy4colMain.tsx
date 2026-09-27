@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Source_Serif_4 } from "next/font/google";
 
 const serif = Source_Serif_4({
@@ -26,7 +27,7 @@ const iconProps = {
 const pillars: Pillar[] = [
   {
     title: "Affordability",
-    body: "Redirecting administrative overhead back into commuter stipends, dining subsidies, and lower mandatory fees.",
+    body: "Implementing a tuition freeze, publicizing and reducing textbook costs, lowering Metro costs, and set up master list of scholarship opportunities.",
     href: "/platform#Affordability",
     icon: (
       <svg {...iconProps}>
@@ -37,7 +38,7 @@ const pillars: Pillar[] = [
   },
   {
     title: "Representation",
-    body: "Guaranteed Senate seats for commuter, transfer, and graduate students so every Terp has a vote at the table.",
+    body: "updates of progress on platform promises, direct democracy of justices and referenda, and improved understandability of SGA processes and website.",
     href: "/platform#Representation",
     icon: (
       <svg {...iconProps}>
@@ -51,19 +52,31 @@ const pillars: Pillar[] = [
     ),
   },
   {
-    title: "Transparency",
-    body: "A public dashboard tracking every SGA budget line, so students can see exactly where fee dollars go.",
-    href: "/platform#Transparency",
+    title: "Campus Safety",
+    body: "Establish UMD as a sanctuary campus, expand sexual misconduct prevention efforts, and allow 2 unexcused absences per semester.",
+    href: "/platform#CampusSafety",
     icon: (
-      <svg {...iconProps}>
-        <rect x="3.5" y="3.5" width="17" height="17" rx="2.5" />
-        <path d="M8 15v-3M12 15V8M16 15v-5" />
-      </svg>
-    ),
+<svg {...iconProps} viewBox="-50 -75 800 800" strokeWidth="3">
+
+<g transform="translate(0.000000,740.000000) scale(0.100000,-0.100000)"
+fill="currentColor">
+<path d="M3685 7100 c-18 -28 -190 -168 -293 -238 -684 -463 -1481 -766 -2274
+-865 l-173 -22 -13 -130 c-22 -207 -21 -835 1 -1075 76 -832 268 -1542 597
+-2215 408 -832 1057 -1584 1746 -2022 175 -111 387 -223 424 -223 33 0 284
+135 430 231 351 231 674 512 953 829 403 458 787 1112 1012 1725 286 775 416
+1644 384 2566 -5 144 -11 277 -15 295 l-6 34 -74 0 c-230 0 -819 134 -1213
+276 -539 195 -1191 561 -1421 798 -46 48 -55 53 -65 36z m126 -619 c494 -328
+1140 -610 1731 -755 135 -34 444 -96 474 -96 1 0 8 -24 16 -52 18 -73 18 -759
+0 -948 -70 -716 -221 -1261 -524 -1890 -136 -282 -286 -529 -469 -771 -335
+-444 -791 -862 -1212 -1111 -86 -51 -124 -68 -141 -64 -26 6 -222 130 -353
+223 -318 224 -719 623 -985 978 -373 498 -653 1091 -813 1720 -59 234 -96 426
+-125 652 -68 525 -79 1231 -21 1263 10 5 94 23 187 40 735 136 1326 372 1984
+793 74 48 138 87 141 87 3 0 53 -31 110 -69z"/>
+</g></svg>)
   },
   {
-    title: "Funding Reform",
-    body: "Rewriting how club and organization budgets are approved, cutting approval time from weeks to days.",
+    title: "Financial Reform",
+    body: "Allow clubs to request funding for food even when it's not in their mission statement, and revitalize the COFA website to improve accessibility",
     href: "/platform#FundingReform",
     icon: (
       <svg {...iconProps}>

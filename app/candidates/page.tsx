@@ -93,14 +93,15 @@ export default function Home() {
       statement:"I want to strengthen communication between students and SGA, advocate for resources and opportunities that support students academically and professionally, and create better engagement across campus.",
       color:"bg-[#FBF7EE]"
     },
-            {
-      id: 10,
-      name: "Alexander Lubell",
-      photoSrc: "/candidates/Alexander.JPG",
-      major: "Finance & Information Systems",
+                {
+      id: 21,
+      name: "Ike Gbolagun",
+      photoSrc: "/candidates/ike.jpg",
+      major: "Mechanical Engineering",
       classYear:  "Junior",
-      position: "BUS Legislator",
-      statement:"I want to advocate for revision of the strict grading curve guidelines in Smith School courses, especially GPA caps that can penalize students in already rigorous classes. I also want to provide more advocacy outlets for underrepresented students and student orgs who need assistance.",
+      statement:"My hope for my role in SGA is to build a more student centered safety and wellbeing program, to create more visible spaces where students feel supported both personally and academically.",
+      position: "ENGR Legislator",
+       
       color:"bg-[#FBF7EE]"
     },
     {
@@ -114,14 +115,14 @@ export default function Home() {
        
       color:"bg-[#FBF7EE]"
     },
-            {
-      id: 12,
-      name: "Raj Bhansali",
-      photoSrc: "/candidates/Raj copy.png",
-      major: "Public Health Sciences + Finance",
-      classYear:  "Junior",
-      position: "SPH Legislator",
-      statement:"I want to make a difference on campus by representing more diverse perspectives and advocating for those around me. ",
+       {
+      id: 16,
+      name: "Mikal Witherspoon",
+      photoSrc: "/candidates/Mikail.jpg",
+      major: "Plant Biology",
+      statement:"I want to stay visible and easy to reach, so if something does come up, it gets handled quickly instead of sitting. ReviveUMD is about rebuilding SGA, and that takes new people willing to show up and do the work.",
+      classYear:  "Sophomore",
+      position: "AGNR Legislator",
       color:"bg-[#FBF7EE]"
     },
     {
@@ -162,19 +163,19 @@ export default function Home() {
       photoSrc: "/candidates/Jas.jpeg",
       major: "Mathematics",
       classYear:  "Senior",
-      statement:"Regarding SGA I want to help bridge the gap between SGA and the student body. There’s a large disconnect between the students and how they perceive SGA and SGA involvement, so being able to bridge that gap is important to me.",
+      statement:"I want to help bridge the gap between SGA and the student body. There’s a large disconnect between the students and how they perceive SGA and SGA involvement, so being able to bridge that gap is important to me.",
       position: "CMNS Legislator",
        
       color:"bg-[#FBF7EE]"
     },
-        {
-      id: 16,
-      name: "Mikal Witherspoon",
-      photoSrc: "/candidates/Mikail.jpg",
-      major: "Plant Biology",
-      statement:"I want to stay visible and easy to reach, so if something does come up, it gets handled quickly instead of sitting. ReviveUMD is about rebuilding SGA, and that takes new people willing to show up and do the work.",
-      classYear:  "Sophomore",
-      position: "AGNR Legislator",
+                {
+      id: 12,
+      name: "Raj Bhansali",
+      photoSrc: "/candidates/Raj copy.png",
+      major: "Public Health Sciences + Finance",
+      classYear:  "Junior",
+      position: "SPH Legislator",
+      statement:"I want to make a difference on campus by representing more diverse perspectives and advocating for those around me. ",
       color:"bg-[#FBF7EE]"
     },
         {
@@ -183,7 +184,7 @@ export default function Home() {
       photoSrc: "/candidates/Hayden copy.JPEG",
       major: "History + PPE",
       classYear:  "Junior",
-      statement: "To faithfully serve the student body of the University of Maryland while championing the humanities across student groups and fields of study.",
+      statement: "I will faithfully serve the student body of the University of Maryland while championing the humanities across student groups and fields of study.",
       position: "ARHU Legislator",
        
       color:"bg-[#FBF7EE]"
@@ -199,14 +200,24 @@ export default function Home() {
        
       color:"bg-[#FBF7EE]"
     },
-            {
+               {
+      id: 10,
+      name: "Alexander Lubell",
+      photoSrc: "/candidates/Alexander.JPG",
+      major: "Finance & Information Systems",
+      classYear:  "Junior",
+      position: "BUS Legislator",
+      statement:"I want to advocate for revision of the strict grading curve guidelines in Smith School courses, especially GPA caps that can penalize students in already rigorous classes. I also want to provide more advocacy outlets for underrepresented students and student orgs who need assistance.",
+      color:"bg-[#FBF7EE]"
+    },
+                {
       id: 19,
       name: "Cahlil Gainey",
       photoSrc: "/candidates/Cahlil.jpeg",
       major: "LTSC",
       classYear: "Junior",
       position: "USTUD Legislator",
-      statement: "To push for a better support system for first gen Terps and low-income students",
+      statement: "I want to push for a better support system for first gen Terps and low-income students",
       color:"bg-[#FBF7EE]"
     },
             {
@@ -217,17 +228,6 @@ export default function Home() {
       classYear:  "Freshman",
       statement:"I want to help make SGA more accessible to the student body and create more opportunities for students to get involved, share their ideas, and feel connected to the UMD community.",
       position: "USTUD Legislator",
-       
-      color:"bg-[#FBF7EE]"
-    },
-            {
-      id: 21,
-      name: "Ike Gbolagun",
-      photoSrc: "/candidates/ike.jpg",
-      major: "Mechanical Engineering",
-      classYear:  "Junior",
-      statement:"My hope for my role in SGA is to build a more student centered safety and wellbeing program, to create more visible spaces where students feel supported both personally and academically.",
-      position: "ENGR Legislator",
        
       color:"bg-[#FBF7EE]"
     },

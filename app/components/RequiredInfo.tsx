@@ -2,6 +2,7 @@ import { Import, Mail } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 const quickLinks = [
+  { href:"/", label: "Home"},
   { href: "/platform", label: "Platform" },
   { href: "/candidates", label: "Candidates" },
 ];
@@ -61,6 +62,7 @@ export default function RequiredInfoPlusContact() {
           </div>
 
           <div className="mt-6 border-t border-[#8B2E2E]/10 pt-5">
+          <p className="text-sm font-semibold text-[#8B2E2E]  decoration-[#8B2E2E]/30 hover:text-[#6E2323]">UMD SGA Elections: October 1-6</p>
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSczcmWWzG7ADspEWCOWI6HzmkaWCIWB3_NzNYhwJJZUdYP0NQ/viewform"
               target="_blank"

@@ -21,10 +21,10 @@ export default function Home() {
             <h2
               className={`${plusJakartaSans.className} text-4xl font-bold text-[#241C1A] sm:text-5xl`}
             >
-              Policy Focuses
+              Policy Pillars
             </h2>
             <p className="mx-auto mt-4 max-w-xl text-lg leading-relaxed text-[#241C1A]/70">
-              Four commitments ReviveUMD is running on this year.
+              Here are 4 of the Policy issues we are committed to this year:
             </p>
           </div>
           <div className="mt-12">
