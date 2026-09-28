@@ -52,7 +52,7 @@ export default function MeetTheCandidates() {
         {
       id: 4,
       name: "Jonathan Leung",
-      photoSrc: "/candidates/johnbig.png",
+      photoSrc: "/candidates/johnnybig.png",
       major: "Finance",
       classYear:  "Senior",
       position: "Vice President of Financial Affiars",
