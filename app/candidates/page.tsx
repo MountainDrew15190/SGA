@@ -16,9 +16,9 @@ export default function Home() {
       name: "Avi Polirer",
       photoSrc: "/candidates/avibig.png",
       major: "Public Policy",
-      classYear:  "Senior",
-      position: "President",
-      statement:"",
+      classYear:"Senior",
+      position: "Student Body President",
+      statement:"If elected to serve as your Student Body President, I vow to work towards reducing student costs, freezing tuition, protecting our immigrant and undocumented populations, and returning SGA to the people.",
       color:"bg-[#FFD520]"
     },
     {

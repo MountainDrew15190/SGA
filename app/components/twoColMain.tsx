@@ -15,7 +15,7 @@ type TicketMember = {
 };
 
 const ticket: TicketMember[] = [
-  { role: "President", name: "Avi Polirer", photo: "/candidates/avismall.png" },
+  { role: "Student Body President", name: "Avi Polirer", photo: "/candidates/avismall.png" },
   { role: "Vice President", name: "Peyton McDonald", photo: "/candidates/peytonsmall.png" },
   { role: "VPFA", name: "Jonathan Leung", photo: "/candidates/johnnysmall.png" },
 ];
