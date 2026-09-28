@@ -152,7 +152,7 @@ export default function Home() {
       photoSrc: "/candidates/Andrew copy.jpeg",
       major: "Computer Science",
       classYear:  "Sophomore",
-      statement:"I want to make SGA more transparent and communicative as well increase funding for Computering related student organizations.",
+      statement:"I want to make SGA more transparent and communicative as well increase funding for Computing related student organizations.",
       position: "CMNS Legislator",
        
       color:"bg-[#FBF7EE]"
