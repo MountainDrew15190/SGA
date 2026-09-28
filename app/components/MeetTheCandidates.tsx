@@ -46,7 +46,7 @@ export default function MeetTheCandidates() {
       major: "Public Policy",
       classYear:  "Senior",
       position: "Executive Vice President",
-      statement:"",
+      statement:"As Executive Vice President, I will strengthen our advocacy off campus and deepen our partnership with university administration to ensure student voices shape every decision. My priority is building a transparent, accessible SGA that directly serves and represents every student.",
       color:"bg-[#FFD520]"
     },
         {
