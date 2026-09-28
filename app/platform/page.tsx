@@ -79,7 +79,7 @@ export default function Home() {
           area="Representation"
           title="Representation"
           text={<div className="leading-loose text-base text-[#6B5D56]"> <p> - Restore relations with <Link href="https://dbknews.com/2026/04/29/umd-gsg-rha-sga-bylaw-amendments/" className='text-[#0000EE] underline'>RHA, GSG</Link></p>
-          <p> - Take advantage of largely unused avenues for change (MGA, B1G support, College Park City Council)</p>
+          <p> - Take advantage of largely unused avenues for change (Maryland General Assembly, B1G support, College Park City Council)</p>
           <p> - De-<Link href="https://dbknews.com/2026/05/08/umd-sga-president-divestment-lease-ordinance/" className='text-[#0000EE] underline'>polarize</Link> SGA culture</p>
           <p> - Expedite smaller, overly bureaucratic processes to allow for focus on bigger issues</p>
           <p> - Amend election rules to allow for broader advertisement during passive campaigning </p>
@@ -106,7 +106,7 @@ export default function Home() {
           <p> - Improve police alert timeliness, to allow for community to prepare or respond when necessary</p>
           <p> - Expand sexual misconduct prevention efforts</p>
           <p> - Push for trained response team to respond to mental health crises, rather than UMPD</p>
-          <p> - Allow <Link href="https://senate.umd.edu/api/s3/files/k/archive/files/public/senate/meetings/2025-2026/2025-10-15-Materials.pdf?v=1785249382000#page=13" className='text-[#0000EE] underline'>2 unexcused absences per class</Link> per semester, instead of 1T (pg. 13 for Pines’ memo)</p>
+          <p> - Allow <Link href="https://senate.umd.edu/api/s3/files/k/archive/files/public/senate/meetings/2025-2026/2025-10-15-Materials.pdf?v=1785249382000#page=13" className='text-[#0000EE] underline'>2 unexcused absences per class</Link> per semester, instead of 1</p>
           <p> - More lenient <Link href="https://odos.illinois.edu/resources/students/bereavement/" className='text-[#0000EE] underline'>grief absence policy</Link> modeled after University of Illinois Urbana</p>
           <p> - Continue <Link href="https://dbknews.com/2026/05/08/accessibility-audit-umd-sga/" className='text-[#0000EE] underline'>accessibility walk, safety walk</Link>; push for improvements upon seeing results</p>
           <p> - Expand on access to free feminine hygiene products campuswide</p>
@@ -156,14 +156,14 @@ export default function Home() {
           title="City/State Policy"
           text={<div className='leading-loose text-base text-[#6B5D56]'>
             <p> - Work with admin, city, and/or businesses to offer student discounts at local businesses </p>
-            <p> - Housing policy w/city, state (<Link href="https://dbknews.com/2024/03/07/cpi-based-rent-caps-for-housing-stability/" className='text-[#0000EE] underline'>rent control</Link>, <Link href="https://en.wikipedia.org/wiki/Right_of_first_refusal/" className='text-[#0000EE] underline'>realpage out</Link>, <Link href="https://dbknews.com/2024/03/07/cpi-based-rent-caps-for-housing-stability/" className='text-[#0000EE] underline'>right to first refusal</Link>, maintain <Link href="https://dbknews.com/2026/02/04/college-park-early-lease-ordinance/" className='text-[#0000EE] underline'>Early Lease Ordinance</Link>)</p>
+            <p> - Housing policy w/city, state (<Link href="https://dbknews.com/2024/03/07/cpi-based-rent-caps-for-housing-stability/" className='text-[#0000EE] underline'>rent control</Link>, <Link href="http://nbcbayarea.com/news/local/san-francisco/ordinance-bans-algorithmic-rent-pricing-tools/3643161/" className='text-[#0000EE] underline'>realpage out</Link>, <Link href="https://dbknews.com/2024/03/07/cpi-based-rent-caps-for-housing-stability/" className='text-[#0000EE] underline'>right to first refusal</Link>, maintain <Link href="https://dbknews.com/2026/02/04/college-park-early-lease-ordinance/" className='text-[#0000EE] underline'>Early Lease Ordinance</Link>)</p>
             <p> - Increase pro-student lobbying efforts to the state legislature</p>
             <p> - Protection from <Link href="https://deflock.org/" className='text-[#0000EE] underline'>Flock Safety, AI Cameras</Link></p>
             <p> - Transparency of investments and pushing for divestment from  <Link href="https://dbknews.com/2026/04/17/umd-usm-divestment-coalition-tribunal/" className='text-[#0000EE] underline'>problematic companies</Link></p>
             <p> - <Link href="https://dbknews.com/2026/05/04/umd-graduate-student-unionization-rights/" className='text-[#0000EE] underline'>Further support for GLU</Link>, both on campus and lobbying in Annapolis</p>
-            <p> - Work with MGA on legislation that did not pass in previous legislative sessions</p>
+            <p> - Work with Maryland General Assembly on legislation that did not pass in previous legislative sessions</p>
             <p> - Shuttle to polling locations that offer early voting in addition to having <Link href="https://dbknews.com/2024/09/24/umd-students-2024-voting-election-guide/" className='text-[#0000EE] underline'>STAMP as a voting location</Link></p>
-            <p> - Expand relationship between former/current MGA interns and the SGA Governmental Affairs Committee to increase lobbying effectiveness</p>
+            <p> - Expand relationship between former/current Maryland General Assembly interns and the SGA Governmental Affairs Committee to increase lobbying effectiveness</p>
           </div>}
         />
                 <Policy 
@@ -174,7 +174,7 @@ export default function Home() {
             <p> - Work to allow student suggestions for new menu items</p>
             <p> - “Lunch with the director” meetings to improve communication</p>
             <p> - Advocate for meal swipe donation, dining dollar donation ability</p>
-            <p> - Working to keep either the Y or South open slightly later, with reduced capacity</p>
+            <p> - Working to keep both the Y or South open slightly later, with reduced capacity</p>
             <p> - Allow students to take out food when inclement weather is expected, and during religious holidays</p>
             <p> - Expand on Kosher and Halal options at dining halls</p>
           </div>}

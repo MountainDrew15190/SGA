@@ -34,11 +34,11 @@ export default function Home() {
         {
       id: 4,
       name: "Jonathan Leung",
-      photoSrc: "/candidates/johnnybig.png",
+      photoSrc: "/candidates/johnbig.png",
       major: "Finance",
       classYear:  "Senior",
       position: "Vice President of Financial Affiars",
-      statement:"",
+      statement:"I want to fix SGA funding. Student organizations shouldn’t have to jump through hoops just to access basic necessities. I want to make funding more efficient and accessible while helping organizations build sustainable revenue that lasts longer than the funding cycle",
       color:"bg-[#FFD520]"
     },
     {
