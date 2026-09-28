@@ -72,14 +72,6 @@ export default function TwoColumns() {
           ))}
         </div>
       </div>
-
-      {/* Pull quote from the presidential candidate */}
-      <blockquote className="mx-auto mt-14 max-w-3xl border-l-4 border-[#D9A441] pl-6 text-xl italic leading-relaxed text-[#241C1A]/80">
-        "The SGA is obviously not working. But we know how to make it work, and we will make it work for you."
-        <footer className="mt-3 text-sm not-italic font-semibold text-[#8B2E2E]">
-          — Avi Polirer, Presidential Candidate 
-        </footer>
-      </blockquote>
     </section>
   );
 }
