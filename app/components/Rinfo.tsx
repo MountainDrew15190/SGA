@@ -91,7 +91,7 @@ export default function RequiredInfoPlusContact() {
                 type="email"
                 name="email"
                 required
-                placeholder="you@umd.edu"
+                placeholder="you@terpmail.umd.edu"
                 className={fieldClass}
               />
             </div>
