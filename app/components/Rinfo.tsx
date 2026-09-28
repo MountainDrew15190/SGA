@@ -5,7 +5,7 @@ import { Mail } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
 
-const CONTACT_EMAIL = "drewdietrich1@gmail.com";
+const CONTACT_EMAIL = "reviveumd@gmail.com";
 // AJAX endpoint lets the form submit without leaving the page.
 const FORMSUBMIT_URL = `https://formsubmit.co/ajax/${CONTACT_EMAIL}`;
 
