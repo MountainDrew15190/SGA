@@ -4,8 +4,7 @@ import TwoColumns from "./components/twoColMain";
 import FourColumnMainpage from "./components/policy4colMain";
 import FeeImpactCard from "./components/FeeImpactCard";
 import MeetTheCandidates from "./components/MeetTheCandidates";
-import RequiredInfoPlusContact from "./components/RequiredInfo";
-import Footer from "./components/Footer"
+import RequiredInfoPlusContact from "./components/Rinfo";
 import { plusJakartaSans } from './fonts'
 
 export default function Home() {

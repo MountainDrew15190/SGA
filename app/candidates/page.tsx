@@ -1,7 +1,7 @@
 import CandidateGrid from "../components/CandidateGrid";
 import Navbar from "../components/navbar";
 import Timer from "../components/timer"
-import RequiredInfoPlusContact from "@/app/components/RequiredInfo";
+import RequiredInfoPlusContact from "@/app/components/Rinfo";
 export default function Home() {
   return (
     <div className="bg-[#FAF6EE]`">

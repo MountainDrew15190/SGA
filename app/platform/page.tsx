@@ -4,7 +4,7 @@ import { Source_Serif_4, Space_Grotesk } from "next/font/google";
 import Navbar from "@/app/components/navbar";
 import Timer from "@/app/components/timer";
 import PlatformStatement from "@/app/components/platformStatement";
-import RequiredInfoPlusContact from "@/app/components/RequiredInfo";
+import RequiredInfoPlusContact from "@/app/components/Rinfo";
 import ButtonLinks from "@/app/components/ButtonLinkGrid"
 import Policy from "../components/policy";
 import { plusJakartaSans } from '@/app/fonts';
