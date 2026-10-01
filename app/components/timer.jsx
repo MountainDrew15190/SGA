@@ -3,10 +3,10 @@
 import { useEffect, useState } from "react";
 
 // Set your target date/time here (local time). Format: YYYY-MM-DDTHH:MM:SS
-const TARGET_DATE = "2026-10-01T09:00:00";
+const TARGET_DATE = "2026-10-06T11:59:59";
 
 // Where the "Vote Now" button links to
-const VOTE_URL = "https://example.com/vote";
+const VOTE_URL = "https://umdsurvey.umd.edu/jfe/form/SV_aWezRKp3aiYpeMm";
 
 function getTimeLeft(target) {
   const diff = +new Date(target) - +new Date();
