@@ -5,11 +5,13 @@ import FourColumnMainpage from "./components/policy4colMain";
 import FeeImpactCard from "./components/FeeImpactCard";
 import MeetTheCandidates from "./components/MeetTheCandidates";
 import RequiredInfoPlusContact from "./components/Rinfo";
+import VotingPopup from "./components/VotingPopup";
 import { plusJakartaSans } from './fonts'
 
 export default function Home() {
   return (
     <div className="bg-[#FAF6EE]">
+      <VotingPopup />
       <Navbar />
       <Timer />
       <main>

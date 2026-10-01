@@ -5,6 +5,9 @@ import { useEffect, useState } from "react";
 // Set your target date/time here (local time). Format: YYYY-MM-DDTHH:MM:SS
 const TARGET_DATE = "2026-10-01T09:00:00";
 
+// Where the "Vote Now" button links to
+const VOTE_URL = "https://example.com/vote";
+
 function getTimeLeft(target) {
   const diff = +new Date(target) - +new Date();
   if (diff <= 0) {
@@ -19,7 +22,10 @@ function getTimeLeft(target) {
   };
 }
 
-export default function CountdownBanner({ targetDate = TARGET_DATE }) {
+export default function CountdownBanner({
+  targetDate = TARGET_DATE,
+  voteUrl = VOTE_URL,
+}) {
   const [timeLeft, setTimeLeft] = useState(null);
 
   useEffect(() => {
@@ -44,7 +50,7 @@ export default function CountdownBanner({ targetDate = TARGET_DATE }) {
     <div className="w-full bg-[#241C1A] text-white">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-start gap-3 px-6 py-3 sm:flex-row sm:gap-6">
         <span className="text-sm font-medium tracking-wide text-white/80">
-          {timeLeft.done ? "SGA Voting Is Open" : "SGA Voting Opens In"}
+          {timeLeft.done ? "SGA Voting Is Open" : "SGA Voting Closes In"}
         </span>
         {!timeLeft.done && (
           <div className="flex items-center gap-3">
@@ -65,6 +71,14 @@ export default function CountdownBanner({ targetDate = TARGET_DATE }) {
             ))}
           </div>
         )}
+        <a
+          href={voteUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="rounded-full bg-[#D9A441] px-4 py-1.5 text-sm font-semibold text-[#241C1A] transition hover:bg-[#e8b856] sm:ml-auto"
+        >
+          Vote Now
+        </a>
       </div>
     </div>
   );
