@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 // Set your target date/time here (local time). Format: YYYY-MM-DDTHH:MM:SS
-const TARGET_DATE = "2026-10-06T23:59:59";
+const TARGET_DATE = "2026-10-06T16:59:59";
 
 // Where the "Vote Now" button links to
 const VOTE_URL = "https://umdsurvey.umd.edu/jfe/form/SV_aWezRKp3aiYpeMm";
