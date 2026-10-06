@@ -11,7 +11,6 @@ import { plusJakartaSans } from './fonts'
 export default function Home() {
   return (
     <div className="bg-[#FAF6EE]">
-      <VotingPopup />
       <Navbar />
       <Timer />
       <main>
