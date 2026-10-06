@@ -50,7 +50,7 @@ export default function CountdownBanner({
     <div className="w-full bg-[#241C1A] text-white">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-start gap-3 px-6 py-3 sm:flex-row sm:gap-6">
         <span className="text-sm font-medium tracking-wide text-white/80">
-          {timeLeft.done ? "SGA Voting Is Open" : "SGA Voting Closes In"}
+          {timeLeft.done ? "SGA Voting Is Open" : "SGA Voting has Ended"}
         </span>
         {!timeLeft.done && (
           <div className="flex items-center gap-3">
